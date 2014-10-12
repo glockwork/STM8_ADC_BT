@@ -1,0 +1,10 @@
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __ADC0832_H
+#define __ADC0832_H
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm8s.h"
+
+unsigned char GetAD0832(bit Channel);
+
+#endif /* __ADC0832_H */
